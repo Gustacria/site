@@ -5,47 +5,48 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #000000;
     }
     .container {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 20px;
     }
     .row {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
-    .col-md-3 {
-      flex-basis: 25%;
+    .col-md-12 {
+      flex-basis: 100%;
       padding: 20px;
-    }
-    .disciplina {
-      background-color: #f7f7f7;
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .disciplina h2 {
-      color: #333;
-      margin-bottom: 10px;
-    }
-    .disciplina p {
-      color: #666;
-      margin-bottom: 20px;
-    }
-    .disciplina a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    .disciplina a:hover {
-      color: #0056b3;
     }
     .imagem {
       width: 100%;
-      height: 200px;
+      height: 600px;
       margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    .titulo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .descricao {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
       border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
@@ -53,43 +54,23 @@
   <header>
     <nav>
       <button onclick="window.location.href='INTEGRADA.HTML'">INICIO</button>
+    </nav>
   </header>
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="disciplina" id="Física">
-            <h2>História</h2>
-            <p>A História é a disciplina que estuda o passado humano, desde a pré-história até os dias atuais.</p>
-            <a href="#">Saiba mais</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <img src="https://picsum.photos/200/300" class="imagem" alt="Imagem de História">
-        </div>
-        <div class="col-md-3">
-          <div class="disciplina" id="Química">
-            <h2>Geografia</h2>
-            <p>A Geografia é a disciplina que estuda a Terra e seus fenômenos, incluindo a localização, o clima, a vegetação e a população.</p>
-            <a href="#">Saiba mais</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <img src="https://picsum.photos/200/301" class="imagem" alt="Imagem de Geografia">
-        </div>
-        <div class="col-md-3">
-          <div class="disciplina" id=" Biologia">
-            <h2>Filosofia</h2>
-            <p>A Filosofia é a disciplina que estuda a natureza da realidade, a existência e o conhecimento.</p>
-            <a href="#">Saiba mais</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <img src="https://picsum.photos/200/302" class="imagem" alt="Imagem de Filosofia">
-        </div>
+        <div class="col-md-12">
+          <img src="C:\Users\gustavo.acviana\Downloads\Captura de tela 2024-11-27 183445.png" class="imagem" alt="Imagem de História">
+          <h1 class="titulo">Disciplina de Matemática</h1>
+          <p class="descricao" style="color: #ffffff">A lição de escala do minecraft foi inesquecivel eu e meu grupo refizemos o cristo redentor no minecraft</p>
+        
+      </div>
+    </div>
   </main>
   <footer>
-    <p>&copy; 2023 - Disciplinas</p>
+    <p style="color: #a09b9b">&copy; 2023 - Disciplina de Matemática</p>
   </footer>
 </body>
 </html>
+
+
